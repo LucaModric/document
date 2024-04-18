@@ -1,0 +1,15 @@
+web支持小于25M的单个文件上传
+
+GithHubDeskTop 支持小于100M的文件上传
+
+GIT  LFS支持超过100M文件上传
+
+GithHubDeskTop 结合GIT  LFS实现超过100M文件上传:
+
+通过 git lfs ls-files 可以随时查看正在被LFS追踪的文件
+
+追踪PDF文件（定位到下载的代码位置，CMD后执行下面代码）
+git lfs track "*.pdf"
+
+在GithHubDeskTop就可以提交超过100M的pdf文件了
+
