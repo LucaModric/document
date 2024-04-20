@@ -13,3 +13,5 @@ git lfs track "*.pdf"
 
 在GithHubDeskTop就可以提交超过100M的pdf文件了
 
+git remote -v 查看远程分支（即github上代码的网址）
+
